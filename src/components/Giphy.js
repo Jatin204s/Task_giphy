@@ -26,6 +26,7 @@ const Giphy = () => {
         itemsPerPage={itemsPerPage}
         totalItems={data.length}
       />
+
       {currentItems.map((el) => {
         return (
           <div
